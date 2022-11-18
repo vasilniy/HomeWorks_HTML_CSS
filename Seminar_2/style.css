@@ -1,0 +1,12 @@
+h2, h1 {
+    color: green;
+  }
+
+a {
+    text-decoration: none;    
+}
+.navigation li, p a {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
