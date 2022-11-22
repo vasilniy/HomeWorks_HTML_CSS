@@ -19,3 +19,32 @@ img {
   width: 1146px;
   margin: 0 auto;
 }
+
+.nav{
+  padding: 39px 0;  
+}
+
+main{
+  margin: 160px 0 197px 0;
+}
+
+footer{
+  margin: 0 0 99px 0;
+}
+
+h2{
+  margin: 0 0 10px 0;
+}
+
+h1{
+  margin: 0 0 40px 0;
+}
+
+p{
+  margin: 0 0 50px 0;
+}
+
+button{
+  padding: 15px 30px;
+  margin-right: 20px;
+}
