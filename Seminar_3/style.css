@@ -2,9 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.container{
+  width: 1146px;
+  margin: 0 auto;
 }
