@@ -32,7 +32,7 @@ h1 {
 body {
   font-family: sans-serif;
 }
-.par {
+.paragraph {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -49,7 +49,7 @@ body {
 img {
   border-radius: 10px;
 }
-.inp {
+.inpt {
   width: 200px;
   height: 30px;
   outline: none;
@@ -58,7 +58,7 @@ img {
   font-size: 14px;
   line-height: 30px;
 }
-.button {
+.btn {
   width: 100px;
   height: 30px;
   font-size: 14px;
