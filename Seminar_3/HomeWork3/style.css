@@ -18,7 +18,7 @@ img {
 .container {
   width: 1146px;
   margin: 0 auto;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 .main_logo {
   margin-top: 40px;
@@ -64,6 +64,14 @@ section {
   color: #aaaaaa;
   margin: 52px 0 0 72px;
 }
-footer{
-    margin-top: 162px;
+footer {
+  margin-top: 162px;
+}
+footer div {
+  padding-top: 97px;
+  padding-bottom: 96px;
+}
+footer img{
+    width: 160px;
+    margin-left: 48px;
 }
