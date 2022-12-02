@@ -141,8 +141,6 @@ article {
 .features div img {
   margin-bottom: 25px;
 }
-.features_item1 {
-}
 
 .features_item2 {
   background: #ffffff;
@@ -187,4 +185,11 @@ article {
   color: #666666;
   text-align: center;
   margin-top: 19px;
+}
+
+.services2 {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
 }
