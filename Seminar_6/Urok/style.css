@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #020a18;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+.navigation {
+  padding: 39px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navigation__link {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+main {
+  margin: 160px 0 197px;
+}
+
+.main-section {
+  display: flex;
+  gap: 128px;
+}
+
+article {
+  margin-bottom: 99px;
+}
+
+.main-title-h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #3a68b8;
+}
+
+.main-title-h1 {
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+}
+
+.main-text {
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 0.7;
+  width: 558px;
+}
+
+.btn-list {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background: #3a68b8;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.logo-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__cards-list {
+  margin-bottom: 257px;
+}
+
+.cards-list__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.card {
+  background: #132035;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card__img {
+  width: 98px;
+  height: 103px;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.card-big {
+  grid-column: span 2;
+  grid-row: span 2;
+  gap: 60px;
+}
+
+@media (max-width: 849px) {
+  .container {
+    width: 767px;
+  }
+
+  .main-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    /*width: 604px;*/
+  }
+
+  .main-section__description {
+    width: 604px;
+  }
+
+  .main-title-h1 {
+    margin-bottom: 40px;
+    line-height: 62.4px;
+  }
+
+  .main-title-h2 {
+    font-size: 16px;
+  }
+
+  .logo-list {
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 32px;
+	width: 600px;
+	margin: 0 auto;
+  }
+  
+}
