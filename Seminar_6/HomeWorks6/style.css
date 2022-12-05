@@ -26,9 +26,9 @@ p {
 }
 
 .container {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 .nav {
@@ -62,4 +62,40 @@ p {
 .nav_item2 img {
   width: 29px;
   height: 29px;
+}
+
+.header_main {
+  background: #f1e4e6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.brand_text h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.brand_text h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.brand_text {
+  padding-top: 290px;
+}
+.border {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.brand_text span {
+  color: #f16d7f;
 }
