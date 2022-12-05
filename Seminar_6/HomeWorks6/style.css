@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+@font-face {
+  font-family: Lato;
+  src: url(font/Lato-Regular.ttf);
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.nav {
+  height: 75px;
+  background: #222222;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav_item1 {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 231px;
+}
+
+.logo_img {
+  width: 44px;
+  height: 38px;
+}
+
+.nav_item2 {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 240px;
+}
+
+.nav_item2 img {
+  width: 29px;
+  height: 29px;
+}
