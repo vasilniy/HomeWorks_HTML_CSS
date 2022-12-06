@@ -237,3 +237,20 @@ p {
   color: #5d5d5d;
   padding: 16px 0;
 }
+
+.bottom_btn div{
+  margin-top: 48px;
+}
+
+.bottom_btn div button {
+  background: #FFF;
+  border: 1px solid #FF6A6A;
+  padding: 14px 38px;
+  display: block;
+  margin: 0 auto; 
+  cursor: pointer; 
+}
+
+.bottom_btn div button p {
+  color: #FF6A6A;
+}
