@@ -12,6 +12,7 @@
 body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  background: #e5e5e5;
 }
 
 img {
@@ -98,4 +99,141 @@ p {
 
 .brand_text span {
   color: #f16d7f;
+}
+
+.main_content {
+  background: #ffffff;
+  padding-top: 65px;
+  padding-bottom: 60.5px;
+}
+
+.section_content {
+  padding: 0 230px;
+}
+
+.top_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-rows: 1fr;*/
+  gap: 30px;
+}
+
+.top_content img {
+  min-width: 250px;
+}
+
+.span_color {
+  font-size: 24px;
+  line-height: 30px;
+  color: #f16d7f;
+}
+
+.top_content div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.top_content div {
+  position: relative;
+}
+
+.top_content_item1 p,
+.top_content_item2 p,
+.top_content_item3 p {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+
+.top_content_item4 {
+  position: relative;
+  margin-top: 30px;
+}
+
+.top_content_item4 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.top_content_item4 img {
+  min-width: 810px;
+}
+
+.bottom_content_item {
+  padding-top: 96px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.bottom_content_item h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+
+.bottom_content_item p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+}
+
+.bottom_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.bottom_content div {
+  background: #f8f8f8;
+}
+
+.bottom_content_item1 div, .bottom_content_item2 div,
+.bottom_content_item3 div, .bottom_content_item4 div,
+.bottom_content_item5 div, .bottom_content_item6 div {
+  padding: 20px 30px 20px 16px;
+  min-width: 250px;
+}
+
+.bottom_content_item1 div h2, .bottom_content_item2 div h2,
+.bottom_content_item3 div h2, .bottom_content_item4 div h2,
+.bottom_content_item5 div h2, .bottom_content_item6 div h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.bottom_content_item1 div p, .bottom_content_item2 div p,
+.bottom_content_item3 div p, .bottom_content_item4 div p,
+.bottom_content_item5 div p, .bottom_content_item6 div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  padding: 16px 0;
 }
