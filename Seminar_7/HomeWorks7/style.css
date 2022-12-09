@@ -110,10 +110,6 @@ p {
   margin: 0 auto;
 }
 
-.section_content {
- /* padding: 0 230px;*/
-}
-
 .top_content {
   display: flex;
   justify-content: center;
@@ -121,10 +117,6 @@ p {
   grid-template-columns: 360px 360px 360px;
   grid-template-rows: 1fr;*/
   gap: 30px;
-}
-
-.top_content img {
-  /* min-width: 250px;*/
 }
 
 .span_color {
