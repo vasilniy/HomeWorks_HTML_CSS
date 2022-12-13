@@ -365,3 +365,79 @@ p {
     right: 25px;
   }
 }
+
+@media (max-width: 375px) {
+  .main_content {
+    width: 375px;
+    padding-top: 64px;
+    padding-bottom: 60.5px;
+  }
+
+  .nav {
+    height: 74px;
+  }
+
+  .header_main {
+    min-width: 375px;
+    height: 363px;
+  }
+
+  .header_main div img {
+    display: none;
+  }
+
+  .brand_text h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .brand_text h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .border {
+    padding-left: 15px;
+  }
+
+  .top_content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 32px;
+  }
+
+  .top_content_item1,
+  .top_content_item2,
+  .top_content_item3 {
+    min-width: 343px;
+    height: 247px;
+  }
+
+  .top_content_item4 {
+    margin-top: 32px;
+
+    height: 180px;
+    height: 247px;
+  }
+
+  .nav_item1 {
+    padding-left: 16px;
+  }
+
+  .nav_tem2_block {
+    display: none;
+  }
+
+  .nav_basket {
+    background: none;
+  }
+
+  .nav_basket p {
+    display: none;
+  }
+
+  .nav_item2 {
+    padding-right: 16px;
+}
+}
