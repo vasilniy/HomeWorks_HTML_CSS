@@ -369,8 +369,7 @@ p {
 @media (max-width: 375px) {
   .main_content {
     width: 375px;
-    padding-top: 64px;
-    padding-bottom: 60.5px;
+    padding: 64px 8px 60px 8px;
   }
 
   .nav {
@@ -401,24 +400,23 @@ p {
   }
 
   .top_content {
-    display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     gap: 32px;
   }
 
   .top_content_item1,
   .top_content_item2,
   .top_content_item3 {
-    min-width: 343px;
+    width: 343px;
     height: 247px;
   }
 
   .top_content_item4 {
     margin-top: 32px;
-
     height: 180px;
-    height: 247px;
+    padding: 0 7px;
+    min-width: 343px;
   }
 
   .nav_item1 {
@@ -439,5 +437,53 @@ p {
 
   .nav_item2 {
     padding-right: 16px;
+  }
+
+  .bottom_content_item {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  element.style {
+  }
+  .top_content div p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .top_content_item1 p {
+    top: 45%;
+    left: 27%;
+  }
+
+  .top_content_item2 p,
+  .top_content_item3 p {
+    top: 45%;
+    left: 32%;
+  }
+
+  .top_content_item4 p {
+    top: 35%;
+    left: 28%;
+  }
+
+  .bottom_content_item p {
+    line-height: 17px;
+  }
+
+  .bottom_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    margin: 0 auto;
+  }
+
+  .bottom_content div {
+    
+    width: 359px;
 }
 }
