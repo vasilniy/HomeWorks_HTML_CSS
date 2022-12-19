@@ -357,6 +357,45 @@ footer {
   height: 142px;
   margin: 0 auto;
   text-align: center;
+  color: #222224;
+  padding-top: 53px;
+}
+
+.section_item2_right p {
+  display: inline;
+  max-width: 557px;
+  height: 142px;
+  margin: 0 auto;
+  text-align: center;  
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+}
+
+.footer_span {
+  font-weight: 400;
+  font-size: 16px;  
+}
+
+.section_item2_right form input:first-child {
+  background: #E1E1E1;
+  border: none;
+  width: 170px;
+  height: 36px;
+  padding: 7px 64px 6px 22px;
+  font-size: 11px;
+}
+
+.section_item2_right form input:last-child {
+  background: #F16D7F;
+  border: none;
+  width: 100px;
+  height: 36px;
+  padding: 7px 7px 6px 8px;
+  margin-left: -4px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
