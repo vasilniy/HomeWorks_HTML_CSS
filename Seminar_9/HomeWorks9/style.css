@@ -180,7 +180,7 @@ p {
 .top_content_item1,
 .top_content_item2,
 .top_content_item3 {
-  min-width: 360px;
+  max-width: 360px;
   height: 260px;
 }
 
@@ -259,6 +259,11 @@ p {
   margin: 48px auto 0 auto;
 }
 
+.bottom_btn div button:hover {
+  background: #f16d7f;
+  color: #ffffff;
+}
+
 .bottom_btn div {
   display: flex;
   justify-content: center;
@@ -267,12 +272,11 @@ p {
 .bottom_btn div button {
   background: #fff;
   border: 1px solid #ff6a6a;
-  padding: 14px 38px;
-  /*display: block;*/
+  padding: 14px 38px;  
   cursor: pointer;
 }
 
-.bottom_btn div button p {
+.bottom_btn div button {
   color: #ff6a6a;
 }
 
@@ -426,6 +430,7 @@ footer {
 .section_item3 div:last-child {
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
