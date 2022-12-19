@@ -366,7 +366,7 @@ footer {
   max-width: 557px;
   height: 142px;
   margin: 0 auto;
-  text-align: center;  
+  text-align: center;
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
@@ -376,26 +376,56 @@ footer {
 
 .footer_span {
   font-weight: 400;
-  font-size: 16px;  
+  font-size: 16px;
 }
 
 .section_item2_right form input:first-child {
-  background: #E1E1E1;
+  background: #e1e1e1;
   border: none;
   width: 170px;
   height: 36px;
   padding: 7px 64px 6px 22px;
   font-size: 11px;
+  border-radius: 40px 0 0 40px;
+  cursor: pointer;
 }
 
 .section_item2_right form input:last-child {
-  background: #F16D7F;
+  background: #f16d7f;
   border: none;
   width: 100px;
   height: 36px;
   padding: 7px 7px 6px 8px;
   margin-left: -4px;
-  color: #FFFFFF;
+  color: #ffffff;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
+
+.section3 {
+  background: #222224;
+}
+
+.section_item3 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_item3 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+.section_item3 div:last-child {
+  display: flex;
+  gap: 8px;
 }
 
 @media (max-width: 768px) {
