@@ -316,8 +316,15 @@ footer {
   line-height: 17px;
 }
 
-.section_item2 {
+.section2 {
   background-image: url(img/footer_photo_subscribe.png);
+  
+}
+
+.section_item2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 97px 0 126px 0;
   background: rgba(244, 244, 244, 0.7);
 }
 
