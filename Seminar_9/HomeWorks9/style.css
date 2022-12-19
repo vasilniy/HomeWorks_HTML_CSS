@@ -213,7 +213,7 @@ p {
 
 .bottom_content div {
   background: #f8f8f8;
-  width: 360px;
+  max-width: 360px;
 }
 
 .bottom_content_item1 div,
@@ -433,6 +433,14 @@ footer {
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+
+  .bottom_content {
+    max-width: 1024px;    
+  }
+
+}
+
 @media (max-width: 768px) {
   .main_content {
     width: 736px;
@@ -639,6 +647,6 @@ footer {
   }
 
   .bottom_content div {
-    width: 359px;
+    max-width: 359px;
   }
 }
