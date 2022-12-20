@@ -577,6 +577,12 @@ footer {
     max-width: 425px;
   }
 
+  .top_content {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
   .top_content_item1,
   .top_content_item2,
   .top_content_item3 {
@@ -584,11 +590,11 @@ footer {
     height: 247px;
   }
 
-  .top_content_item4 {
-    margin-top: 32px;
+  .top_content_item4 {    
     height: 180px;
     padding: 0 7px;
-    max-width: 343px;
+    max-width: 360px;
+    margin: 32px auto 0 auto;
   }
 
   .nav_tem2_block {
@@ -598,7 +604,21 @@ footer {
   .header_main div img {
     display: none;
   }
-} /* не настроено как надо */
+
+  .brand_text {
+    justify-content: center;
+}
+
+  .bottom_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    justify-items: center;
+  }
+
+
+
+}
 
 @media (max-width: 375px) {
   .main_content {
