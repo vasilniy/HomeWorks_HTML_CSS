@@ -621,7 +621,13 @@ footer {
     justify-items: center;
   }
 
-
+  .section_item3 {
+    max-width: 425px;
+    padding: 43px 0 9px 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+}
 
 }
 
