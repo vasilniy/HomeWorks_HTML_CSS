@@ -96,7 +96,7 @@ p {
 
 .brand_text {
   padding-top: 35%;
-  min-width: 399px;
+  width: 399px;
 }
 .border {
   border-left: 12px solid #f16d7f;
@@ -272,7 +272,7 @@ p {
 .bottom_btn div button {
   background: #fff;
   border: 1px solid #ff6a6a;
-  padding: 14px 38px;  
+  padding: 14px 38px;
   cursor: pointer;
 }
 
@@ -433,25 +433,31 @@ footer {
   cursor: pointer;
 }
 
+.section_item3 div div {
+  background: #ffffff;
+}
+
+.section_item3 div div:hover {
+  background: #f16d7f;
+}
+
 @media (max-width: 1024px) {
-
   .bottom_content {
-    max-width: 1024px;    
+    max-width: 1024px;
   }
-
 }
 
 @media (max-width: 768px) {
   .main_content {
-    width: 736px;
+    max-width: 736px;
   }
 
   .header_main {
-    min-width: 736px;
+    max-width: 100%;
   }
 
   .header_main div img {
-    min-width: 286px;
+    max-width: 286px;
   }
   .nav_item1 {
     padding-left: 32px;
@@ -462,8 +468,8 @@ footer {
   }
 
   .brand_text {
-    padding-top: 35%;
-    min-width: 311px;
+    padding-top: 25%;
+    width: 311px;
   }
 
   .brand_text h1 {
@@ -480,7 +486,7 @@ footer {
   .top_content_item1,
   .top_content_item2,
   .top_content_item3 {
-    min-width: 232px;
+    width: 232px;
     height: 168px;
   }
 
@@ -514,7 +520,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
-
     margin: 0 auto;
   }
 
@@ -532,9 +537,46 @@ footer {
   }
 }
 
+@media (max-width: 425px) {
+  .main_content {
+    max-width: 425px;
+    padding: 64px 8px 60px 8px;
+  }
+
+  .header_main {
+    max-width: 425px;
+    height: 363px;
+  }
+  .bottom_content {
+    max-width: 425px;
+  }
+
+  .top_content_item1,
+  .top_content_item2,
+  .top_content_item3 {
+    width: 343px;
+    height: 247px;
+  }
+
+  .top_content_item4 {
+    margin-top: 32px;
+    height: 180px;
+    padding: 0 7px;
+    max-width: 343px;
+  }
+
+  .nav_tem2_block {
+    display: none;
+  }
+
+  .header_main div img {
+    display: none;
+  }
+} /* не настроено как надо */
+
 @media (max-width: 375px) {
   .main_content {
-    width: 375px;
+    max-width: 375px;
     padding: 64px 8px 60px 8px;
   }
 
@@ -543,7 +585,7 @@ footer {
   }
 
   .header_main {
-    min-width: 375px;
+    max-width: 375px;
     height: 363px;
   }
 
@@ -582,7 +624,7 @@ footer {
     margin-top: 32px;
     height: 180px;
     padding: 0 7px;
-    min-width: 343px;
+    max-width: 343px;
   }
 
   .nav_item1 {
