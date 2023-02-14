@@ -239,9 +239,21 @@ p {
 .button_basket_bottom button{
   position: absolute;
   top: 175px;
-  left: 135px;
+  left: 120px;
   cursor: pointer;
-  padding: 12px;
+  padding: 12px 12px 12px 50px;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button_basket_bottom img {
+  background-color: rgba(58, 56, 56, 0.86);
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 182px;
+  left: 130px;
 }
 
 .bottom_img_basket::before {  
