@@ -233,6 +233,7 @@ p {
 
 .bottom_img_basket:hover div {
   opacity: 1;
+  transition: all 0.3s ease;
 }
 
 .button_basket_bottom button{
