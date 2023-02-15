@@ -67,6 +67,7 @@ color: #000000;
   color: #6F6E6E;
   margin-left: 24px;
   margin-top: 12px;
+  cursor: pointer;
 }
 
 .drop_menu ul li:first-child{
@@ -76,13 +77,12 @@ font-weight: 400;
 font-size: 14px;
 line-height: 17px;
 color: #F16D7F;
-
 margin-left: 0;
 margin-top: 24px;
 }
 
 .menu_block {
-
+  display: none;
 }
 
 .nav {
