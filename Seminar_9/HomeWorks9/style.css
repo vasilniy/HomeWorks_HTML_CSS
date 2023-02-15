@@ -32,6 +32,21 @@ p {
   /*border: 1px solid #000;*/
 }
 
+.container_in {
+  background: #222222;
+    position: relative;
+}
+
+.drop_menu {
+  position: absolute;
+  top: 75px;
+  right: 0;  
+  height: 634px;
+  width: 232px;
+  background-color: #fff;
+  box-shadow: -4px 6px 19px -9px #6F6E6E;
+}
+
 .nav {
   height: 75px;
   background: #222222;
@@ -39,12 +54,17 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 
+.nav_container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .nav_item1 {
   display: flex;
   gap: 41px;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 231px;
+  padding-left: 20px;
 }
 
 .logo_img {
@@ -57,17 +77,35 @@ p {
   gap: 33px;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 240px;
+  padding-right: 20px;
   position: relative;
 }
 
 .nav_basket {
-  display: none;
+  display: inline;
+  position: absolute;
+  color: #ffffff;
+  background: #f16d7f;
+  padding-left: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: 15px;
+  right: 15px;
 }
 
 .nav_item2 img {
   width: 29px;
   height: 29px;
+}
+
+.main_bg {
+  background: #f1e4e6;
+}
+
+.container_main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .header_main {
@@ -95,7 +133,7 @@ p {
 }
 
 .brand_text {
-  padding-top: 35%;
+  padding-top: 50%;
   width: 399px;
 }
 .border {
@@ -519,7 +557,7 @@ footer {
   }
 
   .brand_text {
-    padding-top: 25%;
+    
     width: 311px;
   }
 
