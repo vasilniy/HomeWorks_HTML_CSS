@@ -97,6 +97,10 @@ margin-top: 24px;
   margin: 0 auto;
 }
 
+.nav_drop_menu {
+  cursor: pointer;
+}
+
 .nav_item1 {
   display: flex;
   gap: 41px;
